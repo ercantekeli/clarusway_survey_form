@@ -1,0 +1,104 @@
+body {
+  margin: auto;
+  width: 50%;
+  box-sizing: border-box;
+  font-family: 'Prata', serif;
+}
+section {
+  margin: auto;
+  padding: auto;
+}
+h1 {
+  font-weight: 400;
+  color: whiteblue;
+  font-size: 65px;
+  line-height: 1.2;
+}
+p {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+button {
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(337, 75%, 27%);
+  color: white;
+  width: 50%;
+  height: 60px;
+}
+button:hover{
+    border: 2px solid hsl(337, 75%, 27%);
+    border-radius: 10px;
+    background-color: white;
+    color: hsl(337, 75%, 27%);
+}
+#form {
+  margin-top: 10px;
+}
+.deneme {
+  margin-top: 5px;
+}
+.name {
+  margin-top: 10px;
+}
+.surname {
+  margin-top: 10px;
+}
+.email {
+  margin-top: 10px;
+}
+#title {
+  margin-top: 5px;
+  margin-top: 5px;  
+  color: black;
+  background-color: hsl(337, 75%, 27%);
+  border: 3px solid black;
+  text-align: center;
+  font-weight: 800;
+  border-radius: 10px;
+}
+#p-title{
+    color: white;
+}
+#h-title{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f5fdf5;
+}
+#container {
+  margin-top: 5px;
+  background-color: rgb(212, 165, 197);
+  border: 3px solid hsl(337, 75%, 27%);
+  text-align: center;
+  font-weight: 700;
+  border-radius: 10px;
+}
+input {
+  border: 3px solid hsl(337, 75%, 27%);
+  border-radius: 20px;
+}
+.select-dropdown {
+  border: 3px dotted hsl(337, 75%, 27%);
+  border-radius: 20px;
+  font-weight: 700;
+}
+textarea {
+  border: 3px dotted hsl(337, 75%, 27%);
+  border-radius: 20px;
+  width: 500px;
+}
+.current {
+  margin-top: 20px;
+}
+.recommend {
+  margin-top: 20px;
+}
+.favorite {
+  margin-top: 20px;
+}
+.improve {
+  margin-top: 20px;
+}
+.suggestion {
+  margin-top: 20px;
+}

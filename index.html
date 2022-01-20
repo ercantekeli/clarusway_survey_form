@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Survey Form </title>
+
+</head>
+
+<body>
+    <header>
+        <div id="title">
+            <h1 id="h-title">Clarusway Survey Form
+            </h1>
+            <p id="p-title">Thank you for taking the time to help us improve the platform</p>
+        </div>
+    </header>
+    <section id="container">
+        <form action="./result.html" id="form">
+            <div class="name">
+                <label for="name">Name</label> <br>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required><br>
+            </div>
+            <div class="surname">
+                <label for="surname">Surname</label> <br>
+                <input type="text" name="surname" id="surname" placeholder="Enter your Surname" required> <br>
+            </div>
+            <div class="email">
+                <label for="email">Email</label> <br>
+                <input type="email" name="email" id="email" placeholder="user@clarusway.com" required> <br> <br>
+            </div>
+            <div class="current">
+                <p>Which option best describes your current role?</p>
+                <select class="select-dropdown" name="dropdown" id="dropdown">
+                    <option disabled selected value="">Select current role</option>
+                    <option value="abcd">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="Full-time">Full Time Job</option>
+                    <option value="part_time">Part Time Job</option>
+                    <option value="learner">Full Time Learner</option>
+                    <option value="prefno">Prefer no to say</option>
+                </select>
+            </div>
+            <div class="recommend">
+                <p>Would you recommend Clarusway to a friend?</p>
+                <input type="radio" name="recommend" id="first_radio" value="yes" checked>
+                <label for="first_radio">Definitely, Yes</label> <br>
+
+                <input type="radio" name="recommend" id="second_radio" value="maybe">
+                <label for="second_radio">Maybe</label> <br>
+
+                <input type="radio" name="recommend" id="third_radio" value="not_sure">
+                <label for="third_radio">Not sure</label> <br>
+
+                <input type="radio" name="recommend" id="fourth_radio" value="no">
+                <label for="fourth_radio">Definitely, No</label> <br>
+            </div>
+            <div class="favorite">
+                <p>What is your favorite feature of Clarusway?</p>
+                <select class="select-dropdown" name="feature" id="dropdown_2">
+                    <option disabled selected value>Select an option</option>
+                    <option value="courses">Courses</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="mentor">Mentor</option>
+                </select>
+            </div>
+            <div class="improve">
+                <p>What would you like to see improved? (Check all that apply)</p>
+
+                <input type="checkbox" name="prefer" id="first_prefer" value="front-end-projects">
+                <label for="first_prefer">Front-end Projects</label> <br>
+
+                <input type="checkbox" name="prefer" id="second_prefer" value="back-end-projects">
+                <label for="second_prefer">Back-end Projects</label><br>
+
+                <input type="checkbox" name="prefer" id="third_prefer" value="data-science">
+                <label for="third_prefer">Data Science</label><br>
+
+                <input type="checkbox" name="prefer" id="fourth_prefer" value="other-courses">
+                <label for="fourth_prefer">Other Courses</label><br>
+            </div>
+            <div class="suggestion">
+                <p>Any comments or suggestions?</p>
+                <textarea style="resize: none;" id="comments" name="comment"
+                    placeholder="Enter your comment here...Thanks for your commets...." rows="15"
+                    maxlength="500"></textarea>
+            </div>
+            <br><br>
+            <button type="submit" id="submit" class="submit-button">Submit</button> <br><br><br>
+
+
+
+        </form>
+
+
+
+
+    </section>
+</body>
+
+</html>
